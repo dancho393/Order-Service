@@ -5,8 +5,8 @@ services:
     container_name: mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: mysql
+      MYSQL_ROOT_PASSWORD: maxcrysis1
     ports:
-      - "3307:3306"
+      - "3306:3306"
     volumes:
       - ./mysql:/var/lib/mysql
